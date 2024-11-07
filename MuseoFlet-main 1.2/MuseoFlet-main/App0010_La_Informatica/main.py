@@ -270,81 +270,81 @@ def main(page: ft.Page):
         StopAll()
         Brin.play()
 
-    def play_Definición(e):
+    def play_Definicion(e):
         StopAll()
-        Definición.play
+        Definición.play()
         
     def play_primer1843(e):
         StopAll()
-        primer1843.play
+        primer1843.play()
 
     def play_Assembler(e):
         StopAll()
-        Assembler.play
+        Assembler.play()
 
     def play_Fortran(e):
         StopAll()
-        Fortran.play
+        Fortran.play()
 
     def play_List(e):
         StopAll()
-        List.play
+        List.play()
 
     def play_Cobol(e):
         StopAll()
-        Cobol.play
+        Cobol.play()
 
     def play_Pascal1970(e):
         StopAll()
-        Pascal1970.play
+        Pascal1970.play()
 
     def play_Ada1980(e):
         StopAll()
-        Ada1980.play
+        Ada1980.play()
 
     def play_Cmasmas(e):
         StopAll()
-        Cmasmas.play
+        Cmasmas.play()
 
     def play_Perl(e):
         StopAll()
-        Perl.play
+        Perl.play()
 
     def play_Python(e):
         StopAll()
-        Python.play
+        Python.play()
 
     def play_VisualBasic(e):
         StopAll()
-        VisualBasic.play
+        VisualBasic.play()
 
     def play_Ruby(e):
         StopAll()
-        Ruby.play
+        Ruby.play()
 
     def play_PHP(e):
         StopAll()
-        PHP.play
+        PHP.play()
 
     def play_Java(e):
         StopAll()
-        Java.play
+        Java.play()
 
     def play_Javascript(e):
         StopAll()
-        Javascript.play
+        Javascript.play()
 
     def play_Csharp(e):
         StopAll()
-        Csharp.play
+        Csharp.play()
 
     def play_Scala(e):
         StopAll()
-        Scala.play
+        Scala.play()
 
     def play_RubyOnRails(e):
         StopAll()
-        RubyOnRails.play
+        RubyOnRails.play()
 
 
     # Botones Padres de la informática con imágenes y etiquetas semánticas
@@ -370,7 +370,7 @@ def main(page: ft.Page):
     btn20 = ElevatedButton(content=ft.Image(src="Brin.webp", width=img_width, height=img_height, border_radius=border_radius, semantics_label="Sergey Brin"), on_click=play_brin)
 
     #Botones de evolucion de lenguajes
-    btn21 = ElevatedButton(content=ft.Image(src="Definición.jpg", width=img_width, height=img_height, border_radius=border_radius, semantics_label="Definición"), on_click=play_Definición)
+    btn21 = ElevatedButton(content=ft.Image(src="Definición.jpg", width=img_width, height=img_height, border_radius=border_radius, semantics_label="Definición"), on_click=play_Definicion)
     btn22 = ElevatedButton(content=ft.Image(src="primer1843.jpg", width=img_width, height=img_height, border_radius=border_radius, semantics_label="primer1843"), on_click=play_primer1843)
     btn23 = ElevatedButton(content=ft.Image(src="Assembler.png", width=img_width, height=img_height, border_radius=border_radius, semantics_label="Assembler"), on_click=play_Assembler)
     btn24 = ElevatedButton(content=ft.Image(src="Fortran.png", width=img_width, height=img_height, border_radius=border_radius, semantics_label="Fortran"), on_click=play_Fortran)
